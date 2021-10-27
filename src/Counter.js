@@ -1,26 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap';
 import './index.css';
-// import HookState from './HookState';
-
-// import Map from './Map';
-
+//  import 'index from './App';
 import reportWebVitals from './reportWebVitals';
-import HookUseEffect from './HookUseEffect';
 
 
 
 ReactDOM.render(
-
-
-  <HookUseEffect />,
-
-  document.getElementById('root')
-  
+    <FilterableProductTable products={PRODUCTS} />,
+    document.getElementById('root')
 );
-
+export default FilterableProductTable;
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
