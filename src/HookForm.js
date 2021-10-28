@@ -2,14 +2,18 @@ import React, {useState} from 'react'
 
 function HookForm () {
 
-    const [person, setPerson] = useState({name: '',age: '' })
+    const [person, setPerson] = useState('')
+    const [name, setName] = useState({username: '', age : ''})
 
 
     return (
         
         <form>
-           <p> Person: {person}</p>
-           <input type="text" onClick={e => setPerson(e.target.value)} name={person.name} />
+            <p>My name is: {person}</p>
+            <p>My username is: {name.username}</p>
+            <input type='text' onChange={e => setPerson(e.target.value)} name={person} />
+            <input type='text' onChange={e => setName({ username: e.target.value })} name={person} />
+
            
         </form>
     )
