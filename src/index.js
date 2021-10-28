@@ -8,14 +8,14 @@ import './index.css';
 // import Map from './Map';
 
 import reportWebVitals from './reportWebVitals';
-import HookUseEffect from './HookUseEffect';
+import HookLearn from './HookLearn';
 
 
 
 ReactDOM.render(
 
 
-  <HookUseEffect />,
+  <HookLearn />,
 
   document.getElementById('root')
   
