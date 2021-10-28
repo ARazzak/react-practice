@@ -9,14 +9,14 @@ import HookForm from './HookForm';
 // import Map from './Map';
 
 import reportWebVitals from './reportWebVitals';
+import HookLearn from './HookLearn';
 
 
 
 ReactDOM.render(
 
 
-  <HookForm />,
-  // <HookPreserveVal />,
+  <HookLearn />,
 
   document.getElementById('root')
   
