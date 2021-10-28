@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap';
 import './index.css';
 import HookForm from './HookForm';
+import HookUseEffectApplied from './HookUseEffectApplied';
 // import HookPreserveVal from './HookPreserveVal';
 
 // import Map from './Map';
@@ -16,7 +17,7 @@ import HookLearn from './HookLearn';
 ReactDOM.render(
 
 
-  <HookLearn />,
+  <HookUseEffectApplied />,
 
   document.getElementById('root')
   
