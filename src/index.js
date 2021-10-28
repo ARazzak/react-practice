@@ -3,19 +3,20 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap';
 import './index.css';
-// import HookState from './HookState';
+import HookForm from './HookForm';
+// import HookPreserveVal from './HookPreserveVal';
 
 // import Map from './Map';
 
 import reportWebVitals from './reportWebVitals';
-import HookUseEffect from './HookUseEffect';
 
 
 
 ReactDOM.render(
 
 
-  <HookUseEffect />,
+  <HookForm />,
+  // <HookPreserveVal />,
 
   document.getElementById('root')
   
