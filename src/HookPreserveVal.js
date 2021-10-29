@@ -9,11 +9,11 @@ function HookPreserveVal () {
     {
         for(let i = 0; i < 5; i++ )
         {
-            setCount(count + 1)
+            // setCount(count + 1)
 
 
 
-            // setCount(prevCount => prevCount + 1)
+            setCount(prevCount => prevCount + 1)
 
         }
     }
