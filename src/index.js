@@ -3,21 +3,27 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap';
 import './index.css';
-import HookForm from './HookForm';
-import HookUseEffectApplied from './HookUseEffectApplied';
+// import HookForm from './HookForm';
+// import HookUseEffectApplied from './HookUseEffectApplied';
+// import HookUseEffectConditional from './HookUseEffectConditional';
+// import HookUseEffectOnce from './HookUseEffectOnce';
+import HookUseEffectUnmount from './HookUseEffectUnmount';
 // import HookPreserveVal from './HookPreserveVal';
 
 // import Map from './Map';
 
 import reportWebVitals from './reportWebVitals';
-import HookLearn from './HookLearn';
+// import HookLearn from './HookLearn';
 
 
 
 ReactDOM.render(
 
 
-  <HookUseEffectApplied />,
+  <HookUseEffectUnmount />,
+  // <HookUseEffectOnce />,
+  // <HookUseEffectConditional />,
+  // <HookUseEffectApplied />,
 
   document.getElementById('root')
   
