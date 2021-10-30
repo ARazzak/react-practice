@@ -3,19 +3,28 @@ import HookState  from './HookState'
 
 class HookUseEffect extends React.Component {
     constructor(props) {
-        
       super(props);
-      console.log("constructor load")
+      this.state = {
+        count : 0
+      }
 
+    }
+
+    stateUpdate()
+    {
+      this.setState({
+        count: this.state.count+1
+      })
+     
     }
   
     componentDidMount() {
         console.log("DidMount load")
-    //   document.title = `You clicked ${this.state.count} times`;
+      document.title = `You clicked ${this.state.count} times`;
     }
     componentDidUpdate() {
         console.log("Mount update")
-    //   document.title = `You clicked ${this.state.count} times`;
+      document.title = `You clicked ${this.state.count} times`;
     }
   
     render() {
@@ -23,8 +32,9 @@ class HookUseEffect extends React.Component {
       return (
           
            <div>
-               <HookState />
-               
+             {/* <p></p> */}
+            <button onClick={this.stateUpdate.bind(this)} >click</button>
+
             </div>
         
       );

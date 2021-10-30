@@ -3,20 +3,24 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 // import 'bootstrap';
 import './index.css';
-import HookForm from './HookForm';
+// import HookForm from './HookForm';
+// import HookUseEffectApplied from './HookUseEffectApplied';
 // import HookPreserveVal from './HookPreserveVal';
 
 // import Map from './Map';
 
 import reportWebVitals from './reportWebVitals';
-// import HookLearn from './HookLearn';
+// import HookUseEffect from './HookUseEffect';
+import TryEffect from './TryEffect';
 
 
 
 ReactDOM.render(
 
-
-  <HookForm />,
+  //  <HookUseEffect/>,
+  // <HookForm />,
+  // <HookUseEffectApplied />,
+  <TryEffect />,
 
   document.getElementById('root')
   
