@@ -1,28 +1,29 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 
-function HookUseEffectOnce() {
+
+
+function DependanceUseEffect() {
 
     const [x, setX] = useState(0)
     const [y, setY] = useState(0)
 
 
-    const mousePosition = e =>
-    {
+    const mousePosition = e => {
         console.log('mouse position function call')
         setX(e.clientX)
         setY(e.clientY)
     }
 
 
-    useEffect(() =>{
+    useEffect(() => {
         console.log('effect call')
         window.addEventListener('mousemove', mousePosition)
 
-        return ()=>{
+        return () => {
             console.log('unmounted')
             window.removeEventListener('mousemove', mousePosition)
         }
-    // })
+        // })
     }, [])
 
 
@@ -33,4 +34,4 @@ function HookUseEffectOnce() {
     )
 }
 
-export default HookUseEffectOnce
+export default DependanceUseEffect

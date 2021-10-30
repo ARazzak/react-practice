@@ -7,14 +7,17 @@ import './index.css';
 // import HookUseEffectApplied from './HookUseEffectApplied';
 // import HookUseEffectConditional from './HookUseEffectConditional';
 // import HookUseEffectOnce from './HookUseEffectOnce';
-import HookUseEffectUnmount from './HookUseEffectUnmount';
+// import HookUseEffectUnmount from './HookUseEffectUnmount';
 // import HookPreserveVal from './HookPreserveVal';
+// import DependanceUseEffect from './DependanceUseEffect'; 
+// import DependanceClassCounter from './DependanceClassCounter'; 
+import DependanceArray from './DependanceArray';
 
 // import Map from './Map';
 
 import reportWebVitals from './reportWebVitals';
 // import HookUseEffect from './HookUseEffect';
-import TryEffect from './TryEffect';
+// import TryEffect from './TryEffect';
 // import HookLearn from './HookLearn';
 
 ReactDOM.render(
@@ -22,9 +25,11 @@ ReactDOM.render(
   //  <HookUseEffect/>,
   // <HookForm />,
   // <HookUseEffectApplied />,
-  <TryEffect />,
+  // <TryEffect />,
 
-  <HookUseEffectUnmount />,
+  // <DependanceUseEffect />,
+  // <DependanceClassCounter />,
+  <DependanceArray />,
   // <HookUseEffectOnce />,
   // <HookUseEffectConditional />,
   // <HookUseEffectApplied />,
