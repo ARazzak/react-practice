@@ -5,6 +5,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 // import HookForm from './HookForm';
 // import HookUseEffectApplied from './HookUseEffectApplied';
+// import HookUseEffectConditional from './HookUseEffectConditional';
+// import HookUseEffectOnce from './HookUseEffectOnce';
+import HookUseEffectUnmount from './HookUseEffectUnmount';
 // import HookPreserveVal from './HookPreserveVal';
 
 // import Map from './Map';
@@ -12,8 +15,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import HookUseEffect from './HookUseEffect';
 import TryEffect from './TryEffect';
-
-
+// import HookLearn from './HookLearn';
 
 ReactDOM.render(
 
@@ -21,6 +23,11 @@ ReactDOM.render(
   // <HookForm />,
   // <HookUseEffectApplied />,
   <TryEffect />,
+
+  <HookUseEffectUnmount />,
+  // <HookUseEffectOnce />,
+  // <HookUseEffectConditional />,
+  // <HookUseEffectApplied />,
 
   document.getElementById('root')
   
